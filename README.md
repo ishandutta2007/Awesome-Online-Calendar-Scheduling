@@ -1,192 +1,243 @@
-# Awesome-Online-Calendar-Scheduling
+<div align="center">
 
-# Awesome Online Calendar & Scheduling
+<img src="./assets/banner.svg" alt="Awesome Online Calendar &amp; Scheduling Banner" width="100%" />
 
-> A curated list of top Online Calendar and Scheduling platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing personal calendars, coordinating meetings, and self-hosting scheduling pages.
-> 🌟 Star this repo if you find it useful! 🌟
+# 🗓️ Awesome Online Calendar & Scheduling
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Calendar-Scheduling?style=social)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/stargazers)
+
+**A curated index of top Online Calendar software, appointment scheduling tools, booking infrastructure, and self-hosted open-source CalDAV/iCal servers.**
+
+*Discover enterprise SaaS platforms, privacy-respecting self-hosted alternatives to Calendly, CalDAV synchronization engines, and AI-enabled scheduling protocols.*
 
 ---
 
-## 📋 Table of Contents
+[🌐 Sector Overview](#-sector-overview--market-dynamics) • [🟦 SaaS Platforms](#-saas--hosted-platforms) • [🟩 Open-Source Software](#-open-source-software) • [📊 Comparison](#-comparison-at-a-glance) • [🤝 Contributing](#-contributing)
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Google Calendar](#google-calendar)
-  - [Microsoft Outlook Calendar](#microsoft-outlook-calendar)
-  - [Calendly](#calendly)
-  - [Apple Calendar](#apple-calendar)
-  - [Fantastical](#fantastical)
-- [Open-Source Software](#-open-source-software)
-  - [Cal.com](#calcom)
-  - [Tymeslot](#tymeslot)
-  - [Radicale](#radicale)
-  - [DAVx⁵](#davx⁵)
-  - [Tidetime](#tidetime)
-  - [Calnode](#calnode)
-  - [Calrs](#calrs)
-  - [justbookmycal](#justbookmycal)
-  - [OpenReception](#openreception)
+---
+
+</div>
+
+## 📑 Table of Contents
+
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global appointment scheduling and calendar software market was valued at approximately **$550 million to $640 million** and is compounding at a **CAGR of ~13% to 15%**, projected to eclipse **$1.8 billion to $2.5 billion** over the next decade. The sector is **moderately to highly fragmented** rather than winner-take-all: while mega-ecosystem incumbents (Google Workspace, Microsoft 365) and horizontal leaders (Calendly) dominate generic bookings, intense fragmentation persists due to vertical-specific demands across healthcare (HIPAA compliance), salon/service appointments, high-security enterprise workflows, and developer-centric open-source protocols.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Calendar and Scheduling platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted online calendar and automated booking services. Platforms are sorted in descending order by parent company scale (market valuation / enterprise capitalization).
 
-### Google Calendar
-**Type:** Collaborative calendar with scheduling pages
-Google Calendar provides event management, shared calendars, and appointment scheduling pages, integrated with Gmail and Google Workspace. It is the most widely adopted cloud calendar, with real-time sync across devices and native mobile apps.
-
-### Microsoft Outlook Calendar
-**Type:** Enterprise calendar within Microsoft 365
-Outlook Calendar provides event management, shared calendars, and meeting scheduling with deep integration into Exchange, Teams, and the Microsoft 365 ecosystem. It is the default choice for Microsoft-centric organizations.
-
-### Calendly
-**Type:** Meeting scheduling platform with booking pages
-Calendly popularized the self-service booking page model, allowing others to book time based on your availability without back-and-forth emails. It is the primary commercial reference for open-source alternatives like Cal.com, Tymeslot, and Tidetime.
-
-### Apple Calendar
-**Type:** Native calendar for Apple ecosystem
-Apple Calendar provides event management and CalDAV sync across Apple devices, with iCloud integration. It is the natural choice for users within the Apple ecosystem, supporting standard CalDAV for third-party servers.
-
-### Fantastical
-**Type:** Premium calendar app with natural language parsing
-Fantastical is a polished calendar client for Apple platforms known for its natural language event creation and menu bar access. It supports multiple calendar services and is positioned for users wanting a premium client experience.
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Entry Tier Pricing | 🎁 Free Tier Limits / Trial Constraints | 🎯 Primary Architecture & Best For |
+|:---|:---|:---|:---|:---|
+| **[Apple Calendar](https://www.apple.com/macos/continuity/)** | **~$3.5 Trillion Market Cap** (Apple Inc. FY24 Revenue: ~$391B) | **Free** ($0.00 bundled with Apple hardware OS) | **Free forever without subscriptions.** Hard technical account caps: maximum 50,000 total items (events/reminders combined), 100 calendars, 1 GB calendar data size limit, 20 MB max per event, and up to 300 attendees per event across 5 GB base iCloud storage pool. | Native macOS, iOS, iPadOS, and watchOS calendar client with built-in CalDAV synchronization and iCloud multi-device backup. |
+| **[Microsoft Outlook Calendar](https://www.microsoft.com/microsoft-365/outlook/calendar)** | **~$3.1 Trillion Market Cap** (Microsoft Corp. FY24 Revenue: ~$245B) | **$6.00 / user / month** (Microsoft 365 Business Basic, annual commitment) | **No standalone free-forever tier for Bookings.** Outlook web mail is free for personal use, but Microsoft Bookings appointment scheduling requires an active paid Microsoft 365 Business/Enterprise license; free trial available for 30 days (up to 25 business licenses). | Enterprise appointment scheduling deeply coupled to Microsoft Exchange, Azure AD/Entra ID, and Teams video conferencing. |
+| **[Google Calendar](https://calendar.google.com/)** | **~$2.1 Trillion Market Cap** (Alphabet Inc. FY24 Revenue: ~$350B) | **$6.00 / user / month** (Google Workspace Business Starter, annual) | **Free forever with strict limit:** exactly 1 active public booking page/schedule. Free tier excludes automated SMS/email reminders, cannot collect Stripe payments, and only verifies conflicts against a single primary calendar. | Universal collaborative cloud calendar with lightweight booking links, native Google Meet rooms, and Gmail deep integration. |
+| **[Calendly](https://calendly.com/)** | **$3.0 Billion Valuation** (Est. Annual Revenue: ~$350M ARR) | **$10.00 / seat / month** (Standard plan billed annually, or $12 monthly) | **Free forever with strict limit:** exactly 1 active event type, 1 calendar connection, and 1-on-1 meetings only. Free tier excludes automated reminders/workflows, Stripe/PayPal payment routing, team round-robin, and Calendly branding removal. | Standard self-service meeting scheduling platform with automated guest booking links and extensive third-party integrations. |
+| **[Fantastical](https://flexibits.com/fantastical)** | **Bootstrapped Indie / Niche SaaS** (Est. ~$2M - $5M ARR) | **$4.75 / month** (Flexibits Premium individual plan billed annually at $56.99/yr, or $6.99 monthly) | **14-day full-featured free trial** converting to paid plan unless cancelled 24h prior. Reverts to free forever tier: includes basic calendar views, 3-day weather, and natural language entry, but strictly locks scheduling links (*Openings*), meeting polls (*Proposals*), and Zoom/Teams auto-generation behind Premium. | Premium Apple/macOS/iOS calendar client featuring natural language event parsing, time-zone widgets, and unified contact integration. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Calendar and Scheduling tools. The open-source ecosystem spans **full scheduling platforms**, **CalDAV servers**, **Android sync clients**, and **lightweight booking pages**.
+Self-hostable calendar servers, meeting scheduling platforms, CalDAV gateways, and client applications. Repositories are sorted in descending order by GitHub stargazer count.
 
-### Cal.com
-**Stack:** TypeScript / Next.js / PostgreSQL / Prisma | **License:** AGPLv3 (open-core)
-Cal.com is the most widely adopted open-source Calendly alternative, with a codebase that is open-source and self-hostable [citation:6]. It provides booking pages, team scheduling, calendar sync, video conferencing integration, and workflows. The project is built on Next.js with Prisma and PostgreSQL, and can be deployed via Docker (though the team notes Docker installations are supported by the user, not officially by Cal.com) . A managed cloud offering is also available, with the open-source core remaining free for self-hosting.
-**Best for:** Teams wanting a mature, feature-rich Calendly replacement with strong community adoption and the option to self-host or use the managed cloud.
+### 🌟 [Cal.com](https://cal.com/) [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
+- **Repository:** [calcom/cal.com](https://github.com/calcom/cal.com)
+- **Tech Stack:** TypeScript / Next.js / PostgreSQL / Prisma / Tailwind CSS
+- **License:** AGPLv3 (Open-Core)
+- **Description:** The most popular open-source Calendly alternative. Features advanced booking pages, team round-robin scheduling, multi-calendar conflict detection, workflows, Web3/crypto payments, and native app integrations (Zoom, Google Meet, Slack). Available as a single-tenant self-hosted Docker deployment or managed SaaS cloud.
 
-### Tymeslot
-**Stack:** Elixir / Phoenix LiveView / PostgreSQL | **License:** Open Source (self-hostable)
-Tymeslot is an open-source, self-hostable alternative to Calendly and Cal.com, built with Elixir and Phoenix LiveView [citation:2]. Key features include:
-- **Four booking themes** (Quill, Rhythm, Paper, Folio) with custom colours and white-label options
-- **Two-way calendar sync** with Google, Outlook, iCloud, and any CalDAV server (Nextcloud, Radicale, Zimbra, Baikal), with conflict checks across all calendars
-- **Automatic video rooms** on Google Meet, Teams, Zoom, Jitsi, MiroTalk, kMeet, or Nextcloud Talk
-- **Branded email templates** with `.ics` invites and no-login cancel/reschedule links
-- **Webhooks** (HMAC-signed) for n8n, Zapier, and Make
-- **Stripe Connect** optional paid bookings, fee-free for self-hosters
+### 🌟 [FullCalendar](https://fullcalendar.io/) [![GitHub stars](https://img.shields.io/github/stars/fullcalendar/fullcalendar?style=social&color=white)](https://github.com/fullcalendar/fullcalendar/stargazers)
+- **Repository:** [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
+- **Tech Stack:** TypeScript / JavaScript (React, Vue, Angular connectors)
+- **License:** MIT (Standard) / Commercial (Premium plugins)
+- **Description:** The undisputed standard drag-and-drop JavaScript calendar grid component for web applications. Provides day, week, month, timeline, and resource scheduling views with comprehensive timezone handling and iCalendar/gCal feeds.
 
-Self-hosting requires a single Docker container with PostgreSQL included. The same code powers both the self-hosted and managed cloud versions, with no gated features [citation:2].
-**Best for:** Teams wanting a modern, full-featured Calendly alternative with strong CalDAV support and a clean self-hosting story.
+### 🌟 [Stalwart All-in-One Mail & Calendar Server](https://stalwartlabs.com/) [![GitHub stars](https://img.shields.io/github/stars/stalwartlabs/stalwart?style=social&color=white)](https://github.com/stalwartlabs/stalwart/stargazers)
+- **Repository:** [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart)
+- **Tech Stack:** Rust / RocksDB / SQLite / PostgreSQL / S3
+- **License:** AGPL-3.0
+- **Description:** Next-generation secure all-in-one enterprise collaboration server written in pure Rust. Native implementation of JMAP, IMAP4, SMTP, and full CalDAV/CardDAV calendar and contact management with high concurrency and negligible memory footprint.
 
-### Radicale
-**Stack:** Python | **License:** GPL-3.0
-Radicale is a simple CalDAV and CardDAV server designed to be lightweight, easy to install, and easy to configure, with few dependencies and out-of-the-box functionality [citation:3][citation:8]. It runs on most UNIX-like platforms (Linux, BSD, macOS) and Windows, and is known to work with Evolution, Lightning, iPhone, and Android clients. It is a **calendar server** rather than a scheduling platform—it stores and syncs calendars but does not provide booking pages or availability logic.
-**Best for:** Individuals and teams wanting a minimal, dependency-light CalDAV server to self-host their own calendar data, particularly for syncing with existing clients.
+### 🌟 [TOAST UI Calendar](https://ui.toast.com/tui-calendar) [![GitHub stars](https://img.shields.io/github/stars/nhn/tui.calendar?style=social&color=white)](https://github.com/nhn/tui.calendar/stargazers)
+- **Repository:** [nhn/tui.calendar](https://github.com/nhn/tui.calendar)
+- **Tech Stack:** JavaScript / TypeScript
+- **License:** MIT
+- **Description:** A polished, feature-packed client-side JavaScript calendar component providing daily, weekly, monthly, and task milestone views with drag-and-drop event resizing and customized themes.
 
-### DAVx⁵
-**Stack:** Kotlin / Android | **License:** GPLv3
-DAVx⁵ is an open-source CalDAV/CardDAV synchronization app for Android, supporting contacts, calendars, and tasks sync with self-hosted servers [citation:4][citation:9]. It provides live WebDAV file access over the Storage Access Framework, is privacy-focused, and supports easy setup with automatic configuration. It is the standard client for connecting Android devices to self-hosted CalDAV servers like Radicale or Nextcloud.
-**Best for:** Android users wanting to sync their calendars and contacts with a self-hosted CalDAV/CardDAV server, accepting the app's focus on sync rather than standalone calendar management.
+### 🌟 [Planify](https://github.com/alainm23/planify) [![GitHub stars](https://img.shields.io/github/stars/alainm23/planify?style=social&color=white)](https://github.com/alainm23/planify/stargazers)
+- **Repository:** [alainm23/planify](https://github.com/alainm23/planify)
+- **Tech Stack:** Vala / GTK 4 / Libadwaita (Linux / GNOME)
+- **License:** GPL-3.0
+- **Description:** Elegant task and calendar planner designed for the GNOME desktop. Offers native two-way synchronization with Nextcloud, Todoist, and standard CalDAV calendar endpoints.
 
-### Tidetime
-**Stack:** Next.js 16 / React 19 / TypeScript / PostgreSQL / Drizzle | **License:** Open Source (self-hosted)
-Tidetime is a self-hosted appointment scheduling system for a single company with multiple services and multiple providers [citation:10]. Key features include:
-- **Services and providers** with per-service duration, location, intake questions, and optional manual confirmation
-- **Provider assignment** where customers can choose a provider or let the system assign the least-busy available one, with bookings created inside a database transaction to prevent double-booking
-- **Availability management** with per-provider weekly hours and named schedules
-- **Public booking pages** in the customer's own time zone
-- **Calendar sync** with Google Calendar and Microsoft 365 for busy-time conflict checks, plus automatic Google Meet link generation
-- **Webhooks** (signed, Zapier-compatible) for booking events
-- **Branding and custom domain** with automatic HTTPS certificate renewal
+### 🌟 [MeetingBar](https://meetingbar.app/) [![GitHub stars](https://img.shields.io/github/stars/leits/MeetingBar?style=social&color=white)](https://github.com/leits/MeetingBar/stargazers)
+- **Repository:** [leits/MeetingBar](https://github.com/leits/MeetingBar)
+- **Tech Stack:** Swift / macOS Menu Bar
+- **License:** Apache-2.0
+- **Description:** Open-source macOS menu bar application providing instant access to upcoming meetings. Integrates directly with macOS Calendar accounts (Google, Outlook, CalDAV) and enables 1-click joining for 40+ video meeting providers (Zoom, Meet, Teams, Jitsi).
 
-Deploys via Docker and Caddy. There is no hosted plan, no per-seat pricing, and no third-party analytics [citation:10].
-**Best for:** Small companies wanting a self-hosted, multi-provider booking system with strong calendar sync and no SaaS dependency, accepting the Next.js/PostgreSQL deployment.
+### 🌟 [Rallly](https://rallly.co/) [![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
+- **Repository:** [lukevella/rallly](https://github.com/lukevella/rallly)
+- **Tech Stack:** TypeScript / Next.js / Prisma / PostgreSQL / Tailwind CSS
+- **License:** AGPL-3.0
+- **Description:** Open-source group meeting poll and scheduling application (clean self-hostable alternative to Doodle). Lets teams vote on dates and times for meetings without mandatory attendee account sign-ups.
 
-### Calnode
-**Stack:** Go | **License:** Apache-2.0 (per GitHub topic)
-Calnode is a lean, self-hostable scheduling engine built as a single Go binary with SQLite, positioned as a Calendly/Cal.com alternative [citation:6]. Key features include:
-- **API-first and MCP-native**: a Model Context Protocol server is compiled into the binary, exposing tools like `get_available_slots`, `create_booking`, and `reschedule_booking`
-- **OAuth 2.1 authorization server** for agent connections, plus API keys for scripts
-- **HMAC-signed webhooks** for booking lifecycle events
-- **Conversational booking** on the booking page itself, with the deterministic engine computing slots (the model never invents times)
-- **Google/Microsoft calendar sync** and meeting link generation
+### 🌟 [Radicale](https://radicale.org/) [![GitHub stars](https://img.shields.io/github/stars/Kozea/Radicale?style=social&color=white)](https://github.com/Kozea/Radicale/stargazers)
+- **Repository:** [Kozea/Radicale](https://github.com/Kozea/Radicale)
+- **Tech Stack:** Python
+- **License:** GPL-3.0
+- **Description:** Lightweight, dependency-free CalDAV (calendar) and CardDAV (contact) server. Stores calendar events and tasks directly on the filesystem as standard iCalendar files. Ideal for personal servers, Raspberry Pis, and low-resource VPS nodes.
 
-It is positioned for teams wanting a small, fast, scriptable, and AI-ready scheduler rather than a feature-maximal platform [citation:12].
-**Best for:** Developers and AI-forward teams wanting a lightweight, MCP-native scheduling engine with a single binary and no heavy dependencies.
+### 🌟 [Easy!Appointments](https://easyappointments.org/) [![GitHub stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
+- **Repository:** [alextselegidis/easyappointments](https://github.com/alextselegidis/easyappointments)
+- **Tech Stack:** PHP / CodeIgniter / MySQL / jQuery
+- **License:** GPL-3.0
+- **Description:** Battle-tested self-hosted appointment scheduling engine. Designed for companies, medical practices, and freelancers to allow clients to book appointments via web interface. Supports Google Calendar synchronization and automated email notifications.
 
-### Calrs
-**Stack:** Rust | **License:** Open Source
-Calrs is a fast, self-hostable scheduling platform written in Rust, positioned as a Cal.com alternative [citation:11]. Key features include:
-- **Team scheduling** with round-robin (least-busy assignment) or collective (all members must be free) modes
-- **Unified Teams** created from OIDC groups or hand-picked users, with public or private visibility
-- **Invite links** with tokenized access, expiration, and usage limits for internal or private event types
-- **CalDAV calendar sync** for conflict checks, with multi-timezone team support
-- **Availability overrides** for specific dates or custom hours
+### 🌟 [Baïkal](https://sabre.io/baikal/) [![GitHub stars](https://img.shields.io/github/stars/sabre-io/Baikal?style=social&color=white)](https://github.com/sabre-io/Baikal/stargazers)
+- **Repository:** [sabre-io/Baikal](https://github.com/sabre-io/Baikal)
+- **Tech Stack:** PHP / sabre/dav / SQLite / MySQL
+- **License:** GPL-3.0
+- **Description:** Clean, lightweight CalDAV and CardDAV synchronization server powered by `sabre/dav`. Provides a friendly web-based administration dashboard to manage users, address books, and calendars.
 
-It uses local accounts with Argon2 hashing and supports OIDC/SSO via Keycloak or Authentik [citation:11].
-**Best for:** Teams wanting a Rust-based, performance-focused scheduling platform with strong team and invite-link features, accepting a newer ecosystem.
+### 🌟 [DAVx⁵ (OSE)](https://www.davx5.com/) [![GitHub stars](https://img.shields.io/github/stars/bitfireAT/davx5-ose?style=social&color=white)](https://github.com/bitfireAT/davx5-ose/stargazers)
+- **Repository:** [bitfireAT/davx5-ose](https://github.com/bitfireAT/davx5-ose)
+- **Tech Stack:** Kotlin / Android Native
+- **License:** GPL-3.0
+- **Description:** The standard open-source CalDAV/CardDAV synchronization client for Android. Delivers seamless two-way background sync between Android native calendar/contact providers and self-hosted servers (Nextcloud, Radicale, Baïkal, SOGo).
 
-### justbookmycal
-**Stack:** Python / Flask | **License:** Open Source (PyPI)
-justbookmycal is a lightweight, self-hosted booking page that checks your live calendar via ICS feeds [citation:5]. Key characteristics:
-- **ICS feed-based availability**: reads busy times from any published ICS feed, treating `TRANSP:TRANSPARENT` and `CANCELLED` events as free
-- **Cache with fallback**: caches feeds and uses the last copy (up to 24 hours old) if a feed cannot be loaded, rather than risking double booking
-- **Email invitations** with `.ics` attachments, using a system address as organizer so both parties receive proper invitations
-- **Private links** for each side, derived from `SECRET_KEY` and the booking, with only hashes stored in the database
-- **Jitsi video links** by default, with configurable templates
+### 🌟 [SOGo Groupware](https://sogo.nu/) [![GitHub stars](https://img.shields.io/github/stars/Alinto/sogo?style=social&color=white)](https://github.com/Alinto/sogo/stargazers)
+- **Repository:** [Alinto/sogo](https://github.com/Alinto/sogo)
+- **Tech Stack:** Objective-C / C / WebDAV / MySQL / PostgreSQL
+- **License:** GPL-2.0 / LGPL-2.0
+- **Description:** Full-featured open-source groupware suite providing rich webmail, calendar sharing, resource reservation, and native CalDAV/CardDAV/ActiveSync synchronization for Microsoft Outlook and mobile devices.
 
-It is designed for a single person's booking page rather than team scheduling [citation:5].
-**Best for:** Individuals wanting a minimal, self-hosted booking page that works with any ICS feed, accepting a narrower feature set than full platforms.
+### 🌟 [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) [![GitHub stars](https://img.shields.io/github/stars/nextcloud/calendar?style=social&color=white)](https://github.com/nextcloud/calendar/stargazers)
+- **Repository:** [nextcloud/calendar](https://github.com/nextcloud/calendar)
+- **Tech Stack:** Vue.js / PHP / sabre/dav
+- **License:** AGPL-3.0
+- **Description:** The official calendar application for Nextcloud. Features appointment booking pages, resource reservation, room booking, CalDAV endpoints, attendee invitation management, and cross-organization calendar federation.
 
-### OpenReception
-**Stack:** (Check repository) | **License:** AGPL v3
-OpenReception is an open-source appointment scheduling system specifically designed for **doctor's offices**, positioned as a data-protection-friendly alternative to commercial systems [citation:15]. Key features include:
-- **End-to-end encryption** with cryptographic keys exclusively on users' devices—even administrators cannot view sensitive information
-- **Dashboard** for practices to manage appointments, absences, and availabilities
-- **Patient booking** without sharing data with large platforms
-- **Integration interfaces** for existing practice management systems (PVS), with publicly documented APIs
-- **Quantum-resistant encryption** considerations for long-term security
+### 🌟 [Outlook CalDav Synchronizer](https://caldavsynchronizer.org/) [![GitHub stars](https://img.shields.io/github/stars/aluxnimm/outlookcaldavsynchronizer?style=social&color=white)](https://github.com/aluxnimm/outlookcaldavsynchronizer/stargazers)
+- **Repository:** [aluxnimm/outlookcaldavsynchronizer](https://github.com/aluxnimm/outlookcaldavsynchronizer)
+- **Tech Stack:** C# / .NET / VSTO Outlook Add-In
+- **License:** AGPL-3.0
+- **Description:** Free and open-source Outlook add-in that synchronizes events, tasks, and contacts between Microsoft Outlook desktop (2016-2024/M365) and any CalDAV/CardDAV server (Nextcloud, Radicale, SOGo, Google).
 
-Managed hosting starts at €69 net per month, with some features reserved for a premium version. Development was funded by the German Federal Ministry for Research, Technology and Space [citation:15].
-**Best for:** Medical practices and healthcare organizations needing a privacy-first, end-to-end encrypted booking system, accepting a healthcare-specific focus.
+### 🌟 [Someday](https://someday-demo.vercel.app) [![GitHub stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
+- **Repository:** [rbbydotdev/someday](https://github.com/rbbydotdev/someday)
+- **Tech Stack:** TypeScript / React / Shadcn UI / Vite / Google Apps Script
+- **License:** MIT
+- **Description:** Free-to-host calendar availability picker and Calendly alternative designed for Gmail and Google Apps Script users. Serverless architecture running without monthly server costs.
+
+### 🌟 [Calrs](https://cal.rs/) [![GitHub stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
+- **Repository:** [olivierlambert/calrs](https://github.com/olivierlambert/calrs)
+- **Tech Stack:** Rust / Axum / WebAssembly
+- **License:** Open Source
+- **Description:** Ultra-fast, self-hostable scheduling platform written in Rust. Features round-robin and collective team scheduling modes, tokenized private invite links, CalDAV calendar sync, and OIDC/Keycloak SSO authentication.
+
+### 🌟 [Tymeslot](https://tymeslot.app) [![GitHub stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
+- **Repository:** [Tymeslot/tymeslot](https://github.com/Tymeslot/tymeslot)
+- **Tech Stack:** Elixir / Phoenix LiveView / PostgreSQL / Docker
+- **License:** AGPL-3.0
+- **Description:** Modern, self-hostable alternative to Calendly built with Elixir. Features 4 customizable booking themes, two-way sync across Google, Outlook, iCloud, and CalDAV, automatic video rooms (Zoom, Google Meet, Jitsi, Nextcloud Talk), signed webhooks, and zero-fee Stripe Connect bookings.
+
+### 🌟 [OpenReception](https://open-reception.org/) [![GitHub stars](https://img.shields.io/github/stars/open-reception/appointment-booking-software?style=social&color=white)](https://github.com/open-reception/appointment-booking-software/stargazers)
+- **Repository:** [open-reception/appointment-booking-software](https://github.com/open-reception/appointment-booking-software)
+- **Tech Stack:** TypeScript / Node.js / Docker
+- **License:** AGPL-3.0
+- **Description:** Privacy-first, end-to-end encrypted appointment scheduling platform designed specifically for medical practices, healthcare clinics, and public institutions. Developed with support from the German Prototype Fund.
+
+### 🌟 [Calnode](https://calnode.com) [![GitHub stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
+- **Repository:** [Calnode/calnode](https://github.com/Calnode/calnode)
+- **Tech Stack:** Go / SQLite / Single Binary
+- **License:** Apache-2.0
+- **Description:** Lean, single-binary scheduling engine with compiled-in Model Context Protocol (MCP) server. Enables autonomous AI agents to check slots and book meetings deterministically alongside web-based human booking pages.
+
+### 🌟 [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
+- **Repository:** [Sulaiman-Dauda/Tidetime](https://github.com/Sulaiman-Dauda/Tidetime)
+- **Tech Stack:** Next.js / React / TypeScript / PostgreSQL / Drizzle
+- **License:** Open Source
+- **Description:** Multi-provider company booking system. Allows customers to book specific staff or automatically distributes bookings to the least-busy available team member with transactional double-booking prevention.
+
+### 🌟 [JustBookMyCal](https://github.com/mxmehl/just-book-my-cal) [![GitHub stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
+- **Repository:** [mxmehl/just-book-my-cal](https://github.com/mxmehl/just-book-my-cal)
+- **Tech Stack:** Python / Flask / ICS Parser
+- **License:** GPL-3.0
+- **Description:** Minimalist self-hosted booking page that computes open availability directly against any published `.ics` calendar feed without requiring OAuth API credentials.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Booking Pages | CalDAV Sync | Self-Hosted | Best For |
-|----------|---------|-------|---------------|-------------|-------------|----------|
-| **Google Calendar** | Proprietary | Cloud | ✅ Appointment | ❌ | ❌ | Universal calendar + booking |
-| **Calendly** | Proprietary | Cloud | ✅ | (Check) | ❌ | Standard booking pages |
-| **Cal.com** | AGPLv3 | Next.js/Postgres | ✅ | ✅ | ✅ | Mature Calendly alternative |
-| **Tymeslot** | Open Source | Elixir/Phoenix | ✅ 4 themes | ✅ Any CalDAV | ✅ | Full-featured + CalDAV |
-| **Radicale** | GPL-3.0 | Python | ❌ (Server) | ✅ Native | ✅ | Lightweight CalDAV server |
-| **DAVx⁵** | GPLv3 | Kotlin/Android | ❌ (Client) | ✅ Sync client | ✅ (App) | Android CalDAV sync |
-| **Tidetime** | Open Source | Next.js/Postgres | ✅ Multi-provider | (Google/M365) | ✅ | Multi-provider company booking |
-| **Calnode** | Apache-2.0 | Go | ✅ + MCP | (Google/M365) | ✅ | AI-agent bookable scheduler |
-| **Calrs** | Open Source | Rust | ✅ Team modes | ✅ CalDAV | ✅ | Team + invite-link scheduling |
-| **justbookmycal** | Open Source | Python/Flask | ✅ ICS-based | ✅ ICS feeds | ✅ | Minimal ICS-based booking |
-| **OpenReception** | AGPL v3 | (Check) | ✅ Healthcare | (Check) | ✅ | Doctor's offices + E2EE |
+| 🛠️ Software | 📜 License | 💻 Core Stack | 🌐 Booking Pages | 🔄 CalDAV Sync | 🏠 Self-Hosted | 🎯 Ideal Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Apple Calendar** | Proprietary | Apple OS Native | ❌ | ✅ Native Client | ❌ | Apple ecosystem personal scheduling |
+| **Microsoft 365 Calendar** | Proprietary | Cloud SaaS | ✅ Bookings | ❌ | ❌ | Microsoft Enterprise & Active Directory |
+| **Google Calendar** | Proprietary | Cloud SaaS | ✅ 1-page free | ❌ | ❌ | Universal personal & Google Workspace |
+| **Calendly** | Proprietary | Cloud SaaS | ✅ 1-type free | (Sync API) | ❌ | Dedicated automated meeting booking |
+| **Fantastical** | Proprietary | Apple / Win Client | ✅ *Openings* | ✅ Aggregator | ❌ | High-end natural language Mac/iOS client |
+| **Cal.com** | AGPLv3 | Next.js / Postgres | ✅ Multi-type | ✅ Native | ✅ | Mature open-source Calendly alternative |
+| **FullCalendar** | MIT / Comm. | TypeScript / React | ❌ (UI Grid) | ❌ (Feeds) | ✅ | Embeddable calendar grid frontend |
+| **Stalwart** | AGPLv3 | Rust / High-Perf | ❌ | ✅ JMAP/CalDAV | ✅ | Scalable Rust mail & CalDAV server |
+| **TOAST UI Calendar** | MIT | JS / TS | ❌ (UI Grid) | ❌ | ✅ | Client-side drag-and-drop calendar view |
+| **Planify** | GPLv3 | Vala / GTK 4 | ❌ (Client) | ✅ Sync Client | ✅ | Native Linux / GNOME desktop calendar |
+| **MeetingBar** | Apache-2.0 | Swift / macOS | ❌ (Menu bar) | ✅ Aggregator | ✅ | macOS 1-click video meeting launcher |
+| **Rallly** | AGPLv3 | Next.js / Postgres | ✅ Group Polls | ❌ | ✅ | Frictionless group meeting time polling |
+| **Radicale** | GPLv3 | Python / File-based | ❌ (Server) | ✅ Native | ✅ | Minimal lightweight CalDAV server |
+| **Easy!Appointments** | GPLv3 | PHP / MySQL | ✅ Multi-service | (gCal sync) | ✅ | Customer appointment booking system |
+| **Baïkal** | GPLv3 | PHP / sabre/dav | ❌ (Server) | ✅ Native | ✅ | Simple CalDAV/CardDAV web-managed server |
+| **DAVx⁵** | GPLv3 | Kotlin / Android | ❌ (Sync App) | ✅ Sync Client | ✅ | Android mobile CalDAV sync driver |
+| **SOGo** | GPLv2 | Obj-C / WebDAV | ❌ (Groupware) | ✅ Full Suite | ✅ | Self-hosted enterprise groupware & webmail |
+| **Nextcloud Calendar** | AGPLv3 | Vue.js / PHP | ✅ Appointments | ✅ Built-in | ✅ | Private cloud suite with scheduling |
+| **Outlook CalDav Sync** | AGPLv3 | C# / .NET VSTO | ❌ (Plugin) | ✅ Outlook Sync | ✅ | Bridging Outlook Desktop with CalDAV |
+| **Someday** | MIT | React / Apps Script | ✅ Serverless | (Google sync) | ✅ | Free-to-host serverless Google booking |
+| **Calrs** | Open Source | Rust / Axum | ✅ Round-robin | ✅ Native | ✅ | High-performance Rust scheduler with SSO |
+| **Tymeslot** | AGPLv3 | Elixir / Phoenix | ✅ 4 themes | ✅ Any CalDAV | ✅ | Full-featured Calendly alternative |
+| **OpenReception** | AGPLv3 | TypeScript / Docker | ✅ Medical E2EE | (PVS APIs) | ✅ | Healthcare & privacy-critical clinics |
+| **Calnode** | Apache-2.0 | Go / Single Binary | ✅ AI & Web | (gCal/M365) | ✅ | AI-agent bookable MCP calendar |
+| **Tidetime** | Open Source | Next.js / Postgres | ✅ Multi-provider | (gCal/M365) | ✅ | Small business provider appointment booking |
+| **JustBookMyCal** | GPLv3 | Python / Flask | ✅ ICS feed | ✅ ICS feeds | ✅ | Minimal zero-dependency ICS booking |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Calendar or Scheduling tool that should be listed here, please open a pull request with:
+Contributions are always welcome! 🚀 
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+If you know of an active, well-maintained open-source calendar, scheduling tool, or protocol server that should be included:
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch (`git checkout -b add-tool-name`).
+3. 📝 Add the project following the format above, ensuring the GitHub star count badge and stargazer link are present.
+4. 📬 Submit a Pull Request.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The calendar and scheduling space splits between **full booking platforms** (Cal.com for maturity, Tymeslot for feature depth with CalDAV, Tidetime for multi-provider companies, Calrs for Rust-based team scheduling, Calnode for AI-native MCP integration) and **calendar infrastructure** (Radicale for a lightweight CalDAV server, DAVx⁵ for Android sync). **Cal.com** remains the most established open-source Calendly alternative with the largest community [citation:6], while **Tymeslot** offers a compelling modern alternative with four themes, universal CalDAV sync, and no gated features [citation:2]. For teams wanting AI-agent accessibility, **Calnode** uniquely compiles an MCP server into its binary, allowing agents to book meetings directly [citation:12]. **Radicale** is the go-to for self-hosting calendar data itself, particularly when paired with **DAVx⁵** on Android [citation:3][citation:4]. No open-source project fully replicates Google Calendar's ecosystem integration, but the scheduling-specific tools cover the booking workflow comprehensively.
+*Criteria: The project should be actively maintained (updated within the last 12 months), open-source with a clear license, and relevant to calendar workflows, scheduling, or CalDAV infrastructure.*
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. All listed software products, services, trademarks, and logos belong to their respective creators and maintainers.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<div align="center">
+⭐ <b>Found this curated list helpful? Star this repo to show your support!</b> ⭐
+</div>
