@@ -9,7 +9,7 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Calendar-Scheduling?style=social)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Calendar-Scheduling?style=social)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/stargazers)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A curated index of top Online Calendar software, appointment scheduling tools, booking infrastructure, and self-hosted open-source CalDAV/iCal servers.**
@@ -61,127 +61,127 @@ Commercial, cloud-hosted online calendar and automated booking services. Platfor
 
 Self-hostable calendar servers, meeting scheduling platforms, CalDAV gateways, and client applications. Repositories are sorted in descending order by GitHub stargazer count.
 
-### 🌟 [Cal.com](https://cal.com/) [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
+### 🌟 [Cal.com](https://cal.com/) [![GitHub_Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
 - **Repository:** [calcom/cal.com](https://github.com/calcom/cal.com)
 - **Tech Stack:** TypeScript / Next.js / PostgreSQL / Prisma / Tailwind CSS
 - **License:** AGPLv3 (Open-Core)
 - **Description:** The most popular open-source Calendly alternative. Features advanced booking pages, team round-robin scheduling, multi-calendar conflict detection, workflows, Web3/crypto payments, and native app integrations (Zoom, Google Meet, Slack). Available as a single-tenant self-hosted Docker deployment or managed SaaS cloud.
 
-### 🌟 [FullCalendar](https://fullcalendar.io/) [![GitHub stars](https://img.shields.io/github/stars/fullcalendar/fullcalendar?style=social&color=white)](https://github.com/fullcalendar/fullcalendar/stargazers)
+### 🌟 [FullCalendar](https://fullcalendar.io/) [![GitHub_Stars](https://img.shields.io/github/stars/fullcalendar/fullcalendar?style=social&color=white)](https://github.com/fullcalendar/fullcalendar/stargazers)
 - **Repository:** [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
 - **Tech Stack:** TypeScript / JavaScript (React, Vue, Angular connectors)
 - **License:** MIT (Standard) / Commercial (Premium plugins)
 - **Description:** The undisputed standard drag-and-drop JavaScript calendar grid component for web applications. Provides day, week, month, timeline, and resource scheduling views with comprehensive timezone handling and iCalendar/gCal feeds.
 
-### 🌟 [Stalwart All-in-One Mail & Calendar Server](https://stalwartlabs.com/) [![GitHub stars](https://img.shields.io/github/stars/stalwartlabs/stalwart?style=social&color=white)](https://github.com/stalwartlabs/stalwart/stargazers)
+### 🌟 [Stalwart All-in-One Mail & Calendar Server](https://stalwartlabs.com/) [![GitHub_Stars](https://img.shields.io/github/stars/stalwartlabs/stalwart?style=social&color=white)](https://github.com/stalwartlabs/stalwart/stargazers)
 - **Repository:** [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart)
 - **Tech Stack:** Rust / RocksDB / SQLite / PostgreSQL / S3
 - **License:** AGPL-3.0
 - **Description:** Next-generation secure all-in-one enterprise collaboration server written in pure Rust. Native implementation of JMAP, IMAP4, SMTP, and full CalDAV/CardDAV calendar and contact management with high concurrency and negligible memory footprint.
 
-### 🌟 [TOAST UI Calendar](https://ui.toast.com/tui-calendar) [![GitHub stars](https://img.shields.io/github/stars/nhn/tui.calendar?style=social&color=white)](https://github.com/nhn/tui.calendar/stargazers)
+### 🌟 [TOAST UI Calendar](https://ui.toast.com/tui-calendar) [![GitHub_Stars](https://img.shields.io/github/stars/nhn/tui.calendar?style=social&color=white)](https://github.com/nhn/tui.calendar/stargazers)
 - **Repository:** [nhn/tui.calendar](https://github.com/nhn/tui.calendar)
 - **Tech Stack:** JavaScript / TypeScript
 - **License:** MIT
 - **Description:** A polished, feature-packed client-side JavaScript calendar component providing daily, weekly, monthly, and task milestone views with drag-and-drop event resizing and customized themes.
 
-### 🌟 [Planify](https://github.com/alainm23/planify) [![GitHub stars](https://img.shields.io/github/stars/alainm23/planify?style=social&color=white)](https://github.com/alainm23/planify/stargazers)
+### 🌟 [Planify](https://github.com/alainm23/planify) [![GitHub_Stars](https://img.shields.io/github/stars/alainm23/planify?style=social&color=white)](https://github.com/alainm23/planify/stargazers)
 - **Repository:** [alainm23/planify](https://github.com/alainm23/planify)
 - **Tech Stack:** Vala / GTK 4 / Libadwaita (Linux / GNOME)
 - **License:** GPL-3.0
 - **Description:** Elegant task and calendar planner designed for the GNOME desktop. Offers native two-way synchronization with Nextcloud, Todoist, and standard CalDAV calendar endpoints.
 
-### 🌟 [MeetingBar](https://meetingbar.app/) [![GitHub stars](https://img.shields.io/github/stars/leits/MeetingBar?style=social&color=white)](https://github.com/leits/MeetingBar/stargazers)
+### 🌟 [MeetingBar](https://meetingbar.app/) [![GitHub_Stars](https://img.shields.io/github/stars/leits/MeetingBar?style=social&color=white)](https://github.com/leits/MeetingBar/stargazers)
 - **Repository:** [leits/MeetingBar](https://github.com/leits/MeetingBar)
 - **Tech Stack:** Swift / macOS Menu Bar
 - **License:** Apache-2.0
 - **Description:** Open-source macOS menu bar application providing instant access to upcoming meetings. Integrates directly with macOS Calendar accounts (Google, Outlook, CalDAV) and enables 1-click joining for 40+ video meeting providers (Zoom, Meet, Teams, Jitsi).
 
-### 🌟 [Rallly](https://rallly.co/) [![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
+### 🌟 [Rallly](https://rallly.co/) [![GitHub_Stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
 - **Repository:** [lukevella/rallly](https://github.com/lukevella/rallly)
 - **Tech Stack:** TypeScript / Next.js / Prisma / PostgreSQL / Tailwind CSS
 - **License:** AGPL-3.0
 - **Description:** Open-source group meeting poll and scheduling application (clean self-hostable alternative to Doodle). Lets teams vote on dates and times for meetings without mandatory attendee account sign-ups.
 
-### 🌟 [Radicale](https://radicale.org/) [![GitHub stars](https://img.shields.io/github/stars/Kozea/Radicale?style=social&color=white)](https://github.com/Kozea/Radicale/stargazers)
+### 🌟 [Radicale](https://radicale.org/) [![GitHub_Stars](https://img.shields.io/github/stars/Kozea/Radicale?style=social&color=white)](https://github.com/Kozea/Radicale/stargazers)
 - **Repository:** [Kozea/Radicale](https://github.com/Kozea/Radicale)
 - **Tech Stack:** Python
 - **License:** GPL-3.0
 - **Description:** Lightweight, dependency-free CalDAV (calendar) and CardDAV (contact) server. Stores calendar events and tasks directly on the filesystem as standard iCalendar files. Ideal for personal servers, Raspberry Pis, and low-resource VPS nodes.
 
-### 🌟 [Easy!Appointments](https://easyappointments.org/) [![GitHub stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
+### 🌟 [Easy!Appointments](https://easyappointments.org/) [![GitHub_Stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
 - **Repository:** [alextselegidis/easyappointments](https://github.com/alextselegidis/easyappointments)
 - **Tech Stack:** PHP / CodeIgniter / MySQL / jQuery
 - **License:** GPL-3.0
 - **Description:** Battle-tested self-hosted appointment scheduling engine. Designed for companies, medical practices, and freelancers to allow clients to book appointments via web interface. Supports Google Calendar synchronization and automated email notifications.
 
-### 🌟 [Baïkal](https://sabre.io/baikal/) [![GitHub stars](https://img.shields.io/github/stars/sabre-io/Baikal?style=social&color=white)](https://github.com/sabre-io/Baikal/stargazers)
+### 🌟 [Baïkal](https://sabre.io/baikal/) [![GitHub_Stars](https://img.shields.io/github/stars/sabre-io/Baikal?style=social&color=white)](https://github.com/sabre-io/Baikal/stargazers)
 - **Repository:** [sabre-io/Baikal](https://github.com/sabre-io/Baikal)
 - **Tech Stack:** PHP / sabre/dav / SQLite / MySQL
 - **License:** GPL-3.0
 - **Description:** Clean, lightweight CalDAV and CardDAV synchronization server powered by `sabre/dav`. Provides a friendly web-based administration dashboard to manage users, address books, and calendars.
 
-### 🌟 [DAVx⁵ (OSE)](https://www.davx5.com/) [![GitHub stars](https://img.shields.io/github/stars/bitfireAT/davx5-ose?style=social&color=white)](https://github.com/bitfireAT/davx5-ose/stargazers)
+### 🌟 [DAVx⁵ (OSE)](https://www.davx5.com/) [![GitHub_Stars](https://img.shields.io/github/stars/bitfireAT/davx5-ose?style=social&color=white)](https://github.com/bitfireAT/davx5-ose/stargazers)
 - **Repository:** [bitfireAT/davx5-ose](https://github.com/bitfireAT/davx5-ose)
 - **Tech Stack:** Kotlin / Android Native
 - **License:** GPL-3.0
 - **Description:** The standard open-source CalDAV/CardDAV synchronization client for Android. Delivers seamless two-way background sync between Android native calendar/contact providers and self-hosted servers (Nextcloud, Radicale, Baïkal, SOGo).
 
-### 🌟 [SOGo Groupware](https://sogo.nu/) [![GitHub stars](https://img.shields.io/github/stars/Alinto/sogo?style=social&color=white)](https://github.com/Alinto/sogo/stargazers)
+### 🌟 [SOGo Groupware](https://sogo.nu/) [![GitHub_Stars](https://img.shields.io/github/stars/Alinto/sogo?style=social&color=white)](https://github.com/Alinto/sogo/stargazers)
 - **Repository:** [Alinto/sogo](https://github.com/Alinto/sogo)
 - **Tech Stack:** Objective-C / C / WebDAV / MySQL / PostgreSQL
 - **License:** GPL-2.0 / LGPL-2.0
 - **Description:** Full-featured open-source groupware suite providing rich webmail, calendar sharing, resource reservation, and native CalDAV/CardDAV/ActiveSync synchronization for Microsoft Outlook and mobile devices.
 
-### 🌟 [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) [![GitHub stars](https://img.shields.io/github/stars/nextcloud/calendar?style=social&color=white)](https://github.com/nextcloud/calendar/stargazers)
+### 🌟 [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/calendar?style=social&color=white)](https://github.com/nextcloud/calendar/stargazers)
 - **Repository:** [nextcloud/calendar](https://github.com/nextcloud/calendar)
 - **Tech Stack:** Vue.js / PHP / sabre/dav
 - **License:** AGPL-3.0
 - **Description:** The official calendar application for Nextcloud. Features appointment booking pages, resource reservation, room booking, CalDAV endpoints, attendee invitation management, and cross-organization calendar federation.
 
-### 🌟 [Outlook CalDav Synchronizer](https://caldavsynchronizer.org/) [![GitHub stars](https://img.shields.io/github/stars/aluxnimm/outlookcaldavsynchronizer?style=social&color=white)](https://github.com/aluxnimm/outlookcaldavsynchronizer/stargazers)
+### 🌟 [Outlook CalDav Synchronizer](https://caldavsynchronizer.org/) [![GitHub_Stars](https://img.shields.io/github/stars/aluxnimm/outlookcaldavsynchronizer?style=social&color=white)](https://github.com/aluxnimm/outlookcaldavsynchronizer/stargazers)
 - **Repository:** [aluxnimm/outlookcaldavsynchronizer](https://github.com/aluxnimm/outlookcaldavsynchronizer)
 - **Tech Stack:** C# / .NET / VSTO Outlook Add-In
 - **License:** AGPL-3.0
 - **Description:** Free and open-source Outlook add-in that synchronizes events, tasks, and contacts between Microsoft Outlook desktop (2016-2024/M365) and any CalDAV/CardDAV server (Nextcloud, Radicale, SOGo, Google).
 
-### 🌟 [Someday](https://someday-demo.vercel.app) [![GitHub stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
+### 🌟 [Someday](https://someday-demo.vercel.app) [![GitHub_Stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
 - **Repository:** [rbbydotdev/someday](https://github.com/rbbydotdev/someday)
 - **Tech Stack:** TypeScript / React / Shadcn UI / Vite / Google Apps Script
 - **License:** MIT
 - **Description:** Free-to-host calendar availability picker and Calendly alternative designed for Gmail and Google Apps Script users. Serverless architecture running without monthly server costs.
 
-### 🌟 [Calrs](https://cal.rs/) [![GitHub stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
+### 🌟 [Calrs](https://cal.rs/) [![GitHub_Stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
 - **Repository:** [olivierlambert/calrs](https://github.com/olivierlambert/calrs)
 - **Tech Stack:** Rust / Axum / WebAssembly
 - **License:** Open Source
 - **Description:** Ultra-fast, self-hostable scheduling platform written in Rust. Features round-robin and collective team scheduling modes, tokenized private invite links, CalDAV calendar sync, and OIDC/Keycloak SSO authentication.
 
-### 🌟 [Tymeslot](https://tymeslot.app) [![GitHub stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
+### 🌟 [Tymeslot](https://tymeslot.app) [![GitHub_Stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
 - **Repository:** [Tymeslot/tymeslot](https://github.com/Tymeslot/tymeslot)
 - **Tech Stack:** Elixir / Phoenix LiveView / PostgreSQL / Docker
 - **License:** AGPL-3.0
 - **Description:** Modern, self-hostable alternative to Calendly built with Elixir. Features 4 customizable booking themes, two-way sync across Google, Outlook, iCloud, and CalDAV, automatic video rooms (Zoom, Google Meet, Jitsi, Nextcloud Talk), signed webhooks, and zero-fee Stripe Connect bookings.
 
-### 🌟 [OpenReception](https://open-reception.org/) [![GitHub stars](https://img.shields.io/github/stars/open-reception/appointment-booking-software?style=social&color=white)](https://github.com/open-reception/appointment-booking-software/stargazers)
+### 🌟 [OpenReception](https://open-reception.org/) [![GitHub_Stars](https://img.shields.io/github/stars/open-reception/appointment-booking-software?style=social&color=white)](https://github.com/open-reception/appointment-booking-software/stargazers)
 - **Repository:** [open-reception/appointment-booking-software](https://github.com/open-reception/appointment-booking-software)
 - **Tech Stack:** TypeScript / Node.js / Docker
 - **License:** AGPL-3.0
 - **Description:** Privacy-first, end-to-end encrypted appointment scheduling platform designed specifically for medical practices, healthcare clinics, and public institutions. Developed with support from the German Prototype Fund.
 
-### 🌟 [Calnode](https://calnode.com) [![GitHub stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
+### 🌟 [Calnode](https://calnode.com) [![GitHub_Stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
 - **Repository:** [Calnode/calnode](https://github.com/Calnode/calnode)
 - **Tech Stack:** Go / SQLite / Single Binary
 - **License:** Apache-2.0
 - **Description:** Lean, single-binary scheduling engine with compiled-in Model Context Protocol (MCP) server. Enables autonomous AI agents to check slots and book meetings deterministically alongside web-based human booking pages.
 
-### 🌟 [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
+### 🌟 [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub_Stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
 - **Repository:** [Sulaiman-Dauda/Tidetime](https://github.com/Sulaiman-Dauda/Tidetime)
 - **Tech Stack:** Next.js / React / TypeScript / PostgreSQL / Drizzle
 - **License:** Open Source
 - **Description:** Multi-provider company booking system. Allows customers to book specific staff or automatically distributes bookings to the least-busy available team member with transactional double-booking prevention.
 
-### 🌟 [JustBookMyCal](https://github.com/mxmehl/just-book-my-cal) [![GitHub stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
+### 🌟 [JustBookMyCal](https://github.com/mxmehl/just-book-my-cal) [![GitHub_Stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
 - **Repository:** [mxmehl/just-book-my-cal](https://github.com/mxmehl/just-book-my-cal)
 - **Tech Stack:** Python / Flask / ICS Parser
 - **License:** GPL-3.0
@@ -229,7 +229,7 @@ Contributions are always welcome! 🚀
 If you know of an active, well-maintained open-source calendar, scheduling tool, or protocol server that should be included:
 1. 🍴 Fork the repository.
 2. 🌿 Create a descriptive branch (`git checkout -b add-tool-name`).
-3. 📝 Add the project following the format above, ensuring the GitHub star count badge and stargazer link are present.
+3. 📝 Add the project following the format above, ensuring the GitHub Stars_Count badge and stargazer link are present.
 4. 📬 Submit a Pull Request.
 
 *Criteria: The project should be actively maintained (updated within the last 12 months), open-source with a clear license, and relevant to calendar workflows, scheduling, or CalDAV infrastructure.*
