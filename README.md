@@ -4,11 +4,13 @@
 
 # 🗓️ Awesome Online Calendar & Scheduling
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling)
 [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Calendar-Scheduling?style=social)](https://github.com/ishandutta2007/Awesome-Online-Calendar-Scheduling/stargazers)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A curated index of top Online Calendar software, appointment scheduling tools, booking infrastructure, and self-hosted open-source CalDAV/iCal servers.**
 
@@ -29,6 +31,8 @@
 - [🟩 Open-Source Software](#-open-source-software)
 - [📊 Comparison at a Glance](#-comparison-at-a-glance)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -229,6 +233,24 @@ If you know of an active, well-maintained open-source calendar, scheduling tool,
 4. 📬 Submit a Pull Request.
 
 *Criteria: The project should be actively maintained (updated within the last 12 months), open-source with a clear license, and relevant to calendar workflows, scheduling, or CalDAV infrastructure.*
+
+---
+
+## 💖 Support
+
+A huge thank you to everyone using, exploring, and contributing to this curated index! 🌟
+
+If you find this project helpful, please consider supporting its ongoing maintenance and discovery:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** to keep the listings comprehensive and up-to-date.
+- 📢 **Share** with friends, colleagues, and open-source communities.
+- ☕ **Buy a coffee / Sponsor:** If you would like to support directly, you can contribute via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Online-Calendar-Scheduling&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Online-Calendar-Scheduling&type=date&legend=top-left)
 
 ---
 
